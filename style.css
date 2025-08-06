@@ -1,0 +1,17 @@
+#b1{
+    border-radius:20px;
+    background-color:#ffe45c;
+    color:black;
+    height:70px;
+    width:100px;
+    border:3px solid #2f220b;
+    font-size:20px;
+    margin-top:20px;
+}
+
+body{
+    text-align:center;
+    font-family: "Rubik Iso", system-ui;
+    color:rgb(255, 255, 255);
+    background-image:url("./assets/sky.gif")
+}
