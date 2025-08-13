@@ -14,8 +14,17 @@
         <form>
             ENTER YOUR NAME: <br>
             <input type="text" id="name" placeholder="your sweet name"><br>
-            <button type="button" id="button1">click me</button>
-           
+            <div>
+                <button type="button" id="button1">click me!</button>
+            </div>
+           <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                const btn=document.getElementById("button1");
+                    if (btn){
+                        btn.addEventListener("click", () => console.log("clickyyy"))
+                    }
+            })
+            </script>
             <h1 id="message1"></h1>
             <div id="message2">
                 <p id="message3"></p>
